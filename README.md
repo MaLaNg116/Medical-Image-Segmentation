@@ -39,7 +39,7 @@
 
 ### 1. Classification With VGG16+KAN
 
-<center>
+<div style="align: center;">
         <table>
         <caption><strong>模型性能表</strong></caption>
         <tr>
@@ -61,15 +61,15 @@
         <td>0.11</td>
         </tr>
         </table>
-</center>
+</div>
 
 <p align="center"><strong>训练曲线</strong></p>
 
-<center>
+<div style="align: center">
 <img style="width: 49%;" src="./头部CT伪影识别/resource/CLF_loss.png" />
 <img style="width: 49%;" src="./头部CT伪影识别/resource/CLF_acc.png" />
 <img style="width: 70%;" src="./头部CT伪影识别/resource/CLF_roc.png" />
-</center>
+</div>
 
 详细代码请查看 [./头部CT伪影识别/VGG+KAN二分类/](./头部CT伪影识别/VGG+KAN二分类/)
 
@@ -141,10 +141,10 @@
 
 <p align="center"><strong>分割结果示例</strong></p> 
 
-<center>
+<div style="align: center;">
 <img style="width: 49%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_cs1.png" />
 <img style="width: 49%;" alt="心室分割结果" src="./医学影像分割/resource/multi_vgg_xr1.png" />
-</center>
+</div>
 
 
 ### 2. 使用自己搭建（或预训练）的主干模型 + Mask-Former进行分割
@@ -159,14 +159,14 @@
 
 <p align="center"><strong>多模态训练曲线</strong></p>  
 
-<center>
+<div style="align: center;">
 <img style="width: 49%;" src="./医学影像分割/resource/multi_former_loss.png" />
 <img style="width: 49%;" src="./医学影像分割/resource/multi_former_dice.png" />
-</center>
+</div>
 
 <p align="center"><strong>多模态分割结果示例</strong></p>  
 
-<center>
+<div style="align: center;">
 <img style="width: 80%;" src="./医学影像分割/resource/multi_former_xr.png" />
 <img style="width: 80%;" src="./医学影像分割/resource/multi_former_cs.png" />
-</center>
+</div>

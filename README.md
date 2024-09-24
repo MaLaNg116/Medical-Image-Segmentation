@@ -41,11 +41,11 @@
 ### 2. Error Detection With LOF(Local Outlier Factor)
 正文
 
-<p align="center" style="font-weight:bold;">LOF最终分类效果</p>  
+<p align="center"><strong>LOF最终分类效果</strong></p>  
 
 ![分类结果](./头部CT伪影识别/ErrorDetection(LOF)/1.png)
 
-<p align="center" style="font-weight:bold;">LOF PCA降维数据分布展示</p>  
+<p align="center"><strong>LOF PCA降维数据分布展示</strong></p>  
 
 ![PCA数据展示](./头部CT伪影识别/ErrorDetection(LOF)/2.png)
 
@@ -53,6 +53,8 @@
 正文
 
 ## 医学影像分割
+
++ 相关分割结果和训练图表保存在 [./医学影像分割/resource](./医学影像分割/resource/) 文件夹下，可自主查看。
 
 ### 1. 使用自己搭建（或预训练）的主干模型 + U-Net进行分割
 
@@ -63,5 +65,12 @@
 + Segmentation With ResNet50+U-Net(Multi Modal)
 
 如需运行 jupyter notebook 中的相关代码，请根据代码中数据处理相关部分，将需要的文件夹、文件结构以及数据集正确创建和存放到到对应位置。
+
+<p align="center"><strong>分割结果示例</strong></p> 
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap:wrap; width: 100%; height: auto;">
+        <img style="width: 60%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_cs1.png" />
+        <img style="width: 60%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_xr1.png" />
+</div>
+
 
 ### 2. 使用自己搭建（或预训练）的主干模型 + SAM进行分割

@@ -68,9 +68,9 @@
 
 <p align="center"><strong>分割结果示例</strong></p> 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap:wrap; width: 100%; height: auto;">
-        <img style="width: 60%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_cs1.png" />
-        <img style="width: 60%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_xr1.png" />
+        <img style="width: 49%;" alt="息肉分割结果" src="./医学影像分割/resource/multi_vgg_cs1.png" />
+        <img style="width: 49%;" alt="心室分割结果" src="./医学影像分割/resource/multi_vgg_xr1.png" />
 </div>
 
 
-### 2. 使用自己搭建（或预训练）的主干模型 + SAM进行分割
+### 2. 使用自己搭建（或预训练）的主干模型 + Mask-Former进行分割
